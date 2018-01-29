@@ -1,1 +1,3 @@
 
+#### Scala saving RDD to json
+datardd.write.format("json").save("/root/data.json")
