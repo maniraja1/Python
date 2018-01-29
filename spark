@@ -1,3 +1,6 @@
 
 #### Scala saving RDD to json
 datardd.write.format("json").save("/root/data.json")
+
+#### scala saving rdd to textfile
+datardd.rdd.saveAsTextFile("/user/cloudera/retail_db/parts")
