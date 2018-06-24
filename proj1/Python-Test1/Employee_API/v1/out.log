@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "employee_api.py", line 22, in <module>
+    app.run(debug=True)
+  File "/Users/mrajagopal/anaconda3/lib/python3.5/site-packages/flask/app.py", line 843, in run
+    run_simple(host, port, self, **options)
+  File "/Users/mrajagopal/anaconda3/lib/python3.5/site-packages/werkzeug/serving.py", line 677, in run_simple
+    s.bind((hostname, port))
+OSError: [Errno 48] Address already in use

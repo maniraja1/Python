@@ -65,11 +65,13 @@ class T:
 
 #### Example of class that does not have encapsulation for class attributes
 #### Also you are able to set the properties outside of the class
+print('q1')
 q1 = Q(2000)
-q1.y
+print(q1.y)
 
 ### Example of how to fix data encapsulation
 ### However any code that was using p1.x=1 is now broken. Interfaces of setting the properties on a class are now broken
+print('p1')
 p1=P(1000)
 print(p1.get_x())
 ## p1.x
@@ -79,6 +81,7 @@ print(p1.get_x())
 ### Also now the interfaces are fixed r1.z is now available
 ### After adding the decorators now the functions getter and setter are not available outside
 ### However now the properties can be set in multiple ways
+print('r1')
 r1=R(10001)
 print(r1.z)
 r1.z=200
@@ -87,6 +90,7 @@ print(r1.z)
 #### This has the same effect as the previous example
 #### This is the same code as class P but now we can access X outside the class
 #### The other advantage is we can now access getter and setter outside the class unlike in class R
+print('s1')
 s1=S(10001)
 print(s1.x)
 s1.x=300
@@ -95,6 +99,7 @@ s1.set_x(600)
 print(s1.get_x())
 
 #### Previous example however has a problem where a class properties can be set using r1.z and r1.set_z
+print('t1')
 t1=T(500)
 print(t1.x)
 t1.x=700
