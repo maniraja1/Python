@@ -44,6 +44,7 @@ print(e1.last)
 print(e1.email1)
 print(e1.email2)
 
+
 '''
 e1.first= 'mani'
 
@@ -66,6 +67,28 @@ If you would still like for init to set the attriute without following rules in 
 This will make sure init bypasses data encapsulation, however any future modifications to the attribute would call the setter method
 '''
 
+from itertools import islice,repeat,chain
+
+l=[1,2,3,4,5,6,7,8,9,10,11,12]
+print(l)
+for i,x in enumerate(islice(l,3)):
+    print(x)
 
 
 
+x=(1,2,3)
+y=(4,5,6)
+
+z=x+y
+print(z)
+
+
+z=(x+(None,)*3)
+print(z)
+
+for i,x in enumerate(islice(chain(l,repeat(None)),15)):
+    print (x)
+
+
+for i,x in enumerate(islice(chain('abc',repeat(-1,12)),15)):
+    print(x)
