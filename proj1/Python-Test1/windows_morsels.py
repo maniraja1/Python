@@ -123,5 +123,5 @@ def window7(iterable, n,fill=None):
 
 
 x = window7([1,2,3,4,5,6,7,8,9,10,11,12],4,-1)
-for x1 in x:
-    print(x1)
+for x2 in x:
+    print(x2)
