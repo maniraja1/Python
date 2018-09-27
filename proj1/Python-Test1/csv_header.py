@@ -8,11 +8,14 @@ def csvreader(filename,args=[]):
         valuelist=[]
         outdict={}
         for row in csv_reader:
+            print(row)
             for key,value in row.items():
+                print(key,value)
                 print(f"Key:{key},value:{value}")
                 if args and args[line]:
                     key = args[line]
                 if key in outdict:
+                    print(f"outdict:{outdict}")
                     valuelist=outdict[key]
                 valuelist.append(value)
                 print(f"Value list: {valuelist}")
