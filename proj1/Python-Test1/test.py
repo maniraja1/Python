@@ -1,94 +1,57 @@
-class employee:
+import csv, operator
 
-    def __init__(self,fname,lname):
-        self.first=fname
-        self.__last=lname
-        self.__email1=('{}.{}@gmail.com').format(self.first,self.last)
+restaurants=set()
+restaurants2 = set()
+updated=0
+inserted=0
+
+print(STRING)
+
+with open("data/all-restaurants.csv") as fileopen:
+    csv_reader = csv.reader(fileopen)
+    header = next(csv_reader)
+    print(header)
+    for line in csv_reader:
+        restaurants.add((line[0], line[2], line[3], line[4]))
 
 
 
-    @property
-    def first(self):
-        return self.__first
-
-    @first.setter
-    def first(self,fname):
-        if(fname == 'mani'):
-            self.__first='cooldude'
+with open("data/2016-food.csv") as outer_fileopen, open("data/all-restaurants.csv") as original, open('data/all-restaurants_new.csv','w') as final:
+    reader = csv.DictReader(outer_fileopen, fieldnames=header)
+    reader2 = csv.DictReader(original, fieldnames=header)
+    writer = csv.DictWriter(final, fieldnames=header)
+    next(reader)
+    next(reader2)
+    writer.writeheader()
+    for line in reader:
+        if (line['Name'], line['Street'], line['City'], line['State']) in restaurants:
+            if (line['Comments']) != '':
+                writer.writerow({'Name': line['Name'], 'Price': line['Price'], 'Street': line['Street'], 'City': line['City'], 'State': line['State'], 'Comments': line['Comments']})
+                restaurants2.add((line['Name'], line['Street'], line['City'], line['State']))
+                inserted += 1
         else:
-            self.__first=fname
+            writer.writerow(
+                {'Name': line['Name'], 'Price': line['Price'], 'Street': line['Street'], 'City': line['City'],
+                 'State': line['State'], 'Comments': line['Comments']})
+            inserted += 1
+    for line2 in reader2:
+        if (line2['Name'], line2['Street'], line2['City'], line2['State']) in restaurants2:
+            updated += 1
+            inserted = inserted-1
+            pass
+        else:
+            writer.writerow(
+                {'Name': line2['Name'], 'Price': line2['Price'], 'Street': line2['Street'], 'City': line2['City'], 'State': line2['State'],
+                 'Comments': line2['Comments']})
 
-    @property
-    def last(self):
-        return self.__last
-
-    @property
-    def email1(self):
-        return self.__email1
-
-    @property
-    def email2(self):
-        return ('{}.{}@gmail.com').format(self.first,self.last)
-
-
-
-
-
-
-e1=employee('mani','shankar')
-print(e1.first)
-e1.first='raja'
-
-print(e1.first)
-print(e1.last)
-print(e1.email1)
-print(e1.email2)
+with open('data/all-restaurants_new.csv', 'r') as read, open('data/all-restaurants_final.csv', 'w') as write:
+    data2 = csv.DictReader(read, fieldnames=header)
+    next(data2)
+    sortedCSV = sorted(data2, key=operator.itemgetter("Name"))
+    writer = csv.DictWriter(write, fieldnames=header)
+    writer.writeheader()
+    writer.writerows(sortedCSV)
 
 
-'''
-e1.first= 'mani'
-
-print(e1.first)
-print(e1.last)
-print(e1.email1)
-print(e1.email2)
-'''
-
-
-''' Once you define an attribute as a property you cannot then set the attribute without a setter you will get an error
-AttributeError: can't set attribute
-Follow the example above and then comment out the @last.setter. you should get an error'''
-
-'''
-when you set define an attribute as a property and then define setter for this attribute. Anytime you set the value
-inside the __init__ method you will see that it calls the setter and follows whatever code you have in there.
-This is a good way to perform data encapsulation
-If you would still like for init to set the attriute without following rules in the setter initially then you can add "__" beofre your attribute
-This will make sure init bypasses data encapsulation, however any future modifications to the attribute would call the setter method
-'''
-
-from itertools import islice,repeat,chain
-
-l=[1,2,3,4,5,6,7,8,9,10,11,12]
-print(l)
-for i,x in enumerate(islice(l,3)):
-    print(x)
-
-
-
-x=(1,2,3)
-y=(4,5,6)
-
-z=x+y
-print(z)
-
-
-z=(x+(None,)*3)
-print(z)
-
-for i,x in enumerate(islice(chain(l,repeat(None)),15)):
-    print (x)
-
-
-for i,x in enumerate(islice(chain('abc',repeat(-1,12)),15)):
-    print(x)
+print(f"Inserted Rows: {inserted}")
+print(f"Updated Rows: {updated}")

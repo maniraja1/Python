@@ -7,6 +7,7 @@ def outer_func(func):
         return func(*args,**kwargs)
     return inner_func
 
+''''
 @outer_func
 def test_func(msg):
     print ("This is a test function. write something here")
@@ -18,7 +19,7 @@ test("execute this code here")
 
 ### With Decorators
 test_func("execute second code here")
-
+'''
 import functools
 class decorator_class:
 

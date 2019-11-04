@@ -1,0 +1,501 @@
+SystemDBServer Validation was successfull
+AppLogServer Validation was successfull
+APILogServer Validation was successfull
+AuthDBPrimaryServer Validation was successfull
+MobileDBServer Validation was successfull
+sourceServer_SystemDB Validation was successfull
+S1SystemDB Validation was successfull
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL05D3\I3" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL05D3\I3" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL05D3\I3
+ConfigMasterDBServer Validation was successfull
+XTINP2CL05D1\I1 Validation was successfull
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL05D2\I2" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL05D2\I2" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL05D2\I2
+SysQueueServer Validation was successfull
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL01D6\I6" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL01D6\I6" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL01D6\I6
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL05D4\I4" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL05D4\I4" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL05D4\I4
+XTINP2CL05D5\I5 Validation was successfull
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL05D6\I6" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL05D6\I6" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL05D6\I6
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL03D1\I1" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL03D1\I1" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL03D1\I1
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL03D2\I2" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL03D2\I2" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL03D2\I2
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL03D3\I3" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL03D3\I3" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL03D3\I3
+XTINP2CL03D4\I4 Validation was successfull
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL03D5\I5" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL03D5\I5" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL03D5\I5
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL03D6\I6" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL03D6\I6" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL03D6\I6
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL04D1\I1" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL04D1\I1" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL04D1\I1
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL04D2\I2" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL04D2\I2" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL04D2\I2
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL04D3\I3" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL04D3\I3" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL04D3\I3
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL04D4\I4" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL04D4\I4" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL04D4\I4
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL04D5\I5" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL04D5\I5" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL04D5\I5
+XTINP2CL04D6\I6 Validation was successfull
+AsyncAPIServer Validation was successfull
+SecurityLogServer Validation was successfull
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL13D1\I1" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL13D1\I1" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL13D1\I1
+XTINP2CL02D6\I6 Validation was successfull
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D1\I1" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D1\I1" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL08D1\I1
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D2\I2" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D2\I2" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL08D2\I2
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D3\I3" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D3\I3" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL08D3\I3
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D4\I4" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D4\I4" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL08D4\I4
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D5\I5" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D5\I5" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL08D5\I5
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D6\I6" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D6\I6" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL08D6\I6
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D7\I7" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D7\I7" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL08D7\I7
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D8\I8" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D8\I8" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL08D8\I8
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D9\I9" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D9\I9" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL08D9\I9
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D10\I10" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D10\I10" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL08D10\I10
+XTINP2CL08D11\I11 Validation was successfull
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D12\I12" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL08D12\I12" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL08D12\I12
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D1\I1" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D1\I1" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL09D1\I1
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D2\I2" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D2\I2" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL09D2\I2
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D3\I3" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D3\I3" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL09D3\I3
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D4\I4" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D4\I4" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL09D4\I4
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D5\I5" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D5\I5" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL09D5\I5
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D6\I6" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D6\I6" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL09D6\I6
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D7\I7" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D7\I7" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL09D7\I7
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D8\I8" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D8\I8" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL09D8\I8
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D9\I9" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D9\I9" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL09D9\I9
+XTINP2CL09D10\I10 Validation was successfull
+XTINP2CL09D11\I11 Validation was successfull
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D12\I12" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL09D12\I12" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL09D12\I12
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D1\I1" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D1\I1" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL10D1\I1
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D2\I2" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D2\I2" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL10D2\I2
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D3\I3" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D3\I3" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL10D3\I3
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D4\I4" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D4\I4" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL10D4\I4
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D5\I5" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D5\I5" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL10D5\I5
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D6\I6" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D6\I6" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL10D6\I6
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D7\I7" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D7\I7" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL10D7\I7
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D8\I8" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D8\I8" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL10D8\I8
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D9\I9" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D9\I9" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL10D9\I9
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D10\I10" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D10\I10" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL10D10\I10
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D11\I11" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D11\I11" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL10D11\I11
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D12\I12" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL10D12\I12" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL10D12\I12
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL13D2\I2" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL13D2\I2" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL13D2\I2
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL13D3\I3" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL13D3\I3" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL13D3\I3
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL13D4\I4" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL13D4\I4" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL13D4\I4
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CB02D4\I4" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CB02D4\I4" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CB02D4\I4
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CB05D8\I8" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CB05D8\I8" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CB05D8\I8
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL13D9\I9" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL13D9\I9" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL13D9\I9
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL13D5\I5" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL13D5\I5" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL13D5\I5
+IND1P02C022I01\I01 Validation was successfull
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C007I07\I07" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C007I07\I07" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server IND1P02C007I07\I07
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D1\I1" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D1\I1" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL11D1\I1
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D2\I2" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D2\I2" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL11D2\I2
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D3\I3" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D3\I3" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL11D3\I3
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D1\I1" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D1\I1" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL12D1\I1
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D2\I2" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D2\I2" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL12D2\I2
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D3\I3" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D3\I3" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL12D3\I3
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D4\I4" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D4\I4" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL11D4\I4
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D5\I5" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D5\I5" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL11D5\I5
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D6\I6" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D6\I6" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL11D6\I6
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D7\I7" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D7\I7" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL11D7\I7
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D8\I8" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D8\I8" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL11D8\I8
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D9\I9" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL11D9\I9" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL11D9\I9
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D4\I4" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D4\I4" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL12D4\I4
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D5\I5" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D5\I5" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL12D5\I5
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D6\I6" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D6\I6" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL12D6\I6
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D8\I8" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D8\I8" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL12D8\I8
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D9\I9" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D9\I9" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL12D9\I9
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D7\I7" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL12D7\I7" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL12D7\I7
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D1\I1" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D1\I1" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL17D1\I1
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D2\I2" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D2\I2" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL17D2\I2
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D3\I3" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D3\I3" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL17D3\I3
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D4\I4" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D4\I4" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL17D4\I4
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D5\I5" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D5\I5" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL17D5\I5
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D6\I6" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D6\I6" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL17D6\I6
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D7\I7" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D7\I7" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL17D7\I7
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D8\I8" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D8\I8" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL17D8\I8
+IND1P02C007I08\I08 Validation was successfull
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D1\I1" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D1\I1" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL18D1\I1
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D2\I2" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D2\I2" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL18D2\I2
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D3\I3" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D3\I3" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL18D3\I3
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D4\I4" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D4\I4" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL18D4\I4
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D5\I5" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D5\I5" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL18D5\I5
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D6\I6" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D6\I6" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL18D6\I6
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D7\I7" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D7\I7" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL18D7\I7
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL19D1\I1" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL19D1\I1" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL19D1\I1
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D10\I10" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL17D10\I10" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL17D10\I10
+XTINP2CL18D9\I9 Validation was successfull
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D10\I10" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D10\I10" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL18D10\I10
+XTINP2CL17D11\I11 Validation was successfull
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D8\I8" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL18D8\I8" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL18D8\I8
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL21D1\I1" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL21D1\I1" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL21D1\I1
+XTINP2CL15D1\I1 Validation was successfull
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL15D2\I2" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL15D2\I2" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL15D2\I2
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL15D3\I3" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL15D3\I3" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL15D3\I3
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL15D4\I4" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL15D4\I4" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL15D4\I4
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL15D5\I5" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL15D5\I5" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL15D5\I5
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL15D6\I6" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL15D6\I6" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL15D6\I6
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL15D8\I8" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL15D8\I8" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL15D8\I8
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL15D9\I9" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL15D9\I9" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL15D9\I9
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL15D7\I7" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL15D7\I7" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL15D7\I7
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL19D2\I2" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL19D2\I2" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL19D2\I2
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL19D3\I3" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL19D3\I3" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL19D3\I3
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL19D4\I4" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL19D4\I4" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL19D4\I4
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL19D5\I5" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL19D5\I5" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL19D5\I5
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL19D9\I9" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL19D9\I9" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL19D9\I9
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL19D7\I7" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL19D7\I7" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL19D7\I7
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL19D8\I8" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CL19D8\I8" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CL19D8\I8
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C007I02\I02" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C007I02\I02" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server IND1P02C007I02\I02
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C007I03\I03" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C007I03\I03" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server IND1P02C007I03\I03
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C007I04\I04" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C007I04\I04" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server IND1P02C007I04\I04
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C007I05\I05" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C007I05\I05" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server IND1P02C007I05\I05
+IND1P02C007I01\I01 Validation was successfull
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C022I02\I02" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C022I02\I02" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server IND1P02C022I02\I02
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CB06D6\I6" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CB06D6\I6" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CB06D6\I6
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C035I01\I01" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C035I01\I01" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server IND1P02C035I01\I01
+SlotServiceDBServer Validation was successfull
+IND1P02C034I01\I01 Validation was successfull
+XTINP2CB06D7\I7 Validation was successfull
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C035I04\I04" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C035I04\I04" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server IND1P02C035I04\I04
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C035I05\I05" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C035I05\I05" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server IND1P02C035I05\I05
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C035I06\I06" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C035I06\I06" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server IND1P02C035I06\I06
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C036I04\I04" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C036I04\I04" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server IND1P02C036I04\I04
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C036I03\I03" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C036I03\I03" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server IND1P02C036I03\I03
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C022I08\I08" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C022I08\I08" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server IND1P02C022I08\I08
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CB12D7\I7" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "XTINP2CB12D7\I7" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server XTINP2CB12D7\I7
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C036I02\I02" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C036I02\I02" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server IND1P02C036I02\I02
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C036I05\I05" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C036I05\I05" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server IND1P02C036I05\I05
+Error Occured when validating linked server IND1P02C038I05\I05
+IND1P02C101I03\I03 Validation was successfull
+IND1P02C101I02\I02 Validation was successfull
+IND1P02C102I03\I03 Validation was successfull
+IND1P02C105I03\I03 Validation was successfull
+IND1P02C102I05\I05 Validation was successfull
+IND1P02C105I05\I05 Validation was successfull
+IND1P02C101I07\I07 Validation was successfull
+IND1P02C101I08\I08 Validation was successfull
+IND1P02C101I04\I04 Validation was successfull
+IND1P02C102I08\I08 Validation was successfull
+IND1P02C105I04\I04 Validation was successfull
+Error Occured when validating linked server IND1P02C038I08\I08
+IND1P02C101I01\I01 Validation was successfull
+IND1P02C101I06\I06 Validation was successfull
+IND1P02C102I02\I02 Validation was successfull
+IND1P02C104I05\I05 Validation was successfull
+IND1P02C104I06\I06 Validation was successfull
+IND1P02C104I08\I08 Validation was successfull
+IND1P02C104I01\I01 Validation was successfull
+IND1P02C102I07\I07 Validation was successfull
+IND1P02C104I02\I02 Validation was successfull
+IND1P02C105I08\I08 Validation was successfull
+IND1P02C102I01\I01 Validation was successfull
+IND1P02C104I03\I03 Validation was successfull
+IND1P02C102I04\I04 Validation was successfull
+IND1P02C101I05\I05 Validation was successfull
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C022I05\I05" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "IND1P02C022I05\I05" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+Error Occured when validating linked server IND1P02C022I05\I05
+IND1P02C106I08\I08 Validation was successfull
+IND1P02C106I04\I04 Validation was successfull
+IND1P02C106I07\I07 Validation was successfull
+IND1P02C108I07\I07 Validation was successfull
+IND1P02C108I06\I06 Validation was successfull
+IND1P02C108I01\I01 Validation was successfull
+IND1P02C108I03\I03 Validation was successfull
+IND1P02C106I05\I05 Validation was successfull
+IND1P02C107I01\I01 Validation was successfull
+IND1P02C106I02\I02 Validation was successfull
+IND1P02C107I07\I07 Validation was successfull
+IND1P02C107I08\I08 Validation was successfull
+IND1P02C105I01\I01 Validation was successfull
+IND1P02C110I01\I01 Validation was successfull
+IND1P02C109I03\I03 Validation was successfull
+IND1P02C109I05\I05 Validation was successfull
+IND1P02C110I02\I02 Validation was successfull
+IND1P02C109I02\I02 Validation was successfull
+IND1P02C110I07\I07 Validation was successfull
+IND1P02C109I01\I01 Validation was successfull
+IND1P02C112I05\I05 Validation was successfull
+IND1P02C102I06\I06 Validation was successfull
+IND1P02C104I04\I04 Validation was successfull
+IND1P02C112I06\I06 Validation was successfull
+IND1P02C112I03\I03 Validation was successfull
+IND1P02C109I04\I04 Validation was successfull
+IND1P02C111I05\I05 Validation was successfull
+IND1P02C110I05\I05 Validation was successfull
+IND1P02C111I01\I01 Validation was successfull
+IND1P02C107I02\I02 Validation was successfull
+IND1P02C107I05\I05 Validation was successfull
+IND1P02C112I07\I07 Validation was successfull
+IND1P02C111I06\I06 Validation was successfull
+IND1P02C111I07\I07 Validation was successfull
+IND1P02C111I02\I02 Validation was successfull
+IND1P02C111I04\I04 Validation was successfull
+IND1P02C112I02\I02 Validation was successfull
+IND1P02C112I04\I04 Validation was successfull
+IND1P02C111I03\I03 Validation was successfull
+IND1P02C106I01\I01 Validation was successfull
+IND1P02C107I03\I03 Validation was successfull
+IND1P02C108I05\I05 Validation was successfull
+IND1P02C108I04\I04 Validation was successfull
+IND1P02C108I08\I08 Validation was successfull
+IND1P02C104I07\I07 Validation was successfull
+IND1P02C107I04\I04 Validation was successfull
+IND1P02C110I06\I06 Validation was successfull
+IND1P02C105I06\I06 Validation was successfull
+IND1P02C113I01\I01 Validation was successfull
+IND1P02C109I08\I08 Validation was successfull
+IND1P02C106I03\I03 Validation was successfull
+IND1P02C112I01\I01 Validation was successfull
+IND1P02C108I02\I02 Validation was successfull
+IND1P02C109I07\I07 Validation was successfull
+IND1P02C110I03\I03 Validation was successfull
+IND1P02C110I08\I08 Validation was successfull
+IND1P02C008I01\I01 Validation was successfull
+IND1P02C107I06\I06 Validation was successfull
+IND1P02C105I10\I10 Validation was successfull
+IND1P02C170I02\I02 Validation was successfull
+IND1P02C170I04\I04 Validation was successfull
+IND1P02C113I02\I02 Validation was successfull
+Failure Count is 129
+Msg 50000, Level 16, State 1, Line 22
+Error Occurred when validating one or more Linked servers

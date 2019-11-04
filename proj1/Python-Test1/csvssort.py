@@ -26,3 +26,17 @@ def csvsort(filename,*args):
 
 csvsort ('./data/colors.csv',0,1)
 
+#### Multiple ways to sort
+#### Using lambda and row(n) works only with one column sorting
+n = int(column_number)
+sorted(rows, key=lambda row: row[n]) ### when you have a single column
+
+##### Using lambda and row(n) works only with one column sorting
+numbers=[1,2]
+sorted(reader, key=lambda row: [row[n] for n in numbers])
+
+##### This is the one from theexample above, works with any number of columns
+sort=[1,2]
+sorted(csv_reader, key=operator.itemgetter(*sort))
+
+
