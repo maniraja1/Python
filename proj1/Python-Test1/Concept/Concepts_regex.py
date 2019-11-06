@@ -1,7 +1,19 @@
-import re
+
 
 '''
-Special characters
+Quick Concept
+    Used for pattern based for text parsing
+Modules
+    Import re
+Methods
+    re.search - returns a match as long as it finds a match in the string
+    re.match - returns a match object only if it matches the beginning of the string
+    re.findall - Finds all the possible matches in the entire sequence and returns them as a list of strings.
+    re.fullmatch - If the whole string matches the regular expression pattern, return a corresponding match object.
+    re.sub(pattern, repl, string, count=0, flags=0)
+    re.compile() - Compiles a regular expression pattern into a regular expression object
+Options
+You can provide the following regex patterns
     Period matches a single character except new line
     \w Alpha numeric character
     \W any character not matched by \w
@@ -30,18 +42,12 @@ greedy
     .+,.*   (Except new line greedy search)
 group
     
-Methods
-    re.search - returns a match as long as it finds a match in the string
-    re.match - returns a match object only if it matches the beginning of the string
-    re.findall - Finds all the possible matches in the entire sequence and returns them as a list of strings. 
-    re.fullmatch - If the whole string matches the regular expression pattern, return a corresponding match object.
-    re.sub(pattern, repl, string, count=0, flags=0)
-    re.compile() - Compiles a regular expression pattern into a regular expression object
+
 
 Reference  
     https://www.datacamp.com/community/tutorials/python-regular-expression-tutorial#REinPython
 '''
-
+import re
 text="500000000 A quick fox 10 jumped over 2 the lazy dogs xyz@abc.com blah blah blah xxx@yyy.com"
 # Alpha numeric search
 print("Alphanumeric search demo")

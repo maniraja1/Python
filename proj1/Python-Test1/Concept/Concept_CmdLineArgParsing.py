@@ -11,13 +11,6 @@ Core Methods
     add_argument()     -   Add arguments to object of type Argument parser
     add_mutually_exclusive_group()    - Add mutually exclusive argument
     parse_args()       - Parse argument from object of type Argument parser
-'''
-'''
-Example how to use argparse.
-    Save the below code and run the below command to execute from command line
-        python test3.py --help
-       python test3.py --a 1 --b 2 --filename "test.py" --education "highschool" --d --e --f 
-    Above command cannot use positional argument, Every argument needs to be passed with argument name
 Options
     Choices
         You can pass a list of valid choice
@@ -25,6 +18,14 @@ Options
         You can add an action to an argument
     mutually exclusive group
         you can add parameters such that both cannot be pased at the same time but at least one of them should be passed
+'''
+'''
+Example how to use argparse.
+    Save the below code and run the below command to execute from command line
+        python test3.py --help
+       python test3.py --a 1 --b 2 --filename "test.py" --education "highschool" --d --e --f 
+    Above command cannot use positional argument, Every argument needs to be passed with argument name
+
 '''
 import argparse
 parser = argparse.ArgumentParser(description='A tutorial of argparse!')
