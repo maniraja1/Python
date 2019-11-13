@@ -1,4 +1,3 @@
-import sys
-name=input("what is your name")
-print(sys.stdin.readline())
-print(sys.stdin.readline())
+from datetime import datetime,timedelta
+print((datetime.now()).isoweekday())
+print(datetime.now()+timedelta(30))
