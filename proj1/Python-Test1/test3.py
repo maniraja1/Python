@@ -1,50 +1,68 @@
-from enum import IntEnum
-from datetime import datetime,timedelta
+import time
+class decorator_class:
+    def __init__(self,func):
+        self.func=func
 
-class Weekday(IntEnum):
-    Monday=1
-    Tuesday=2
-    Wednesday=3
-    Thursday=4
-    Friday=5
-    Saturday=6
-    Sunday=7
+    def __call__(self, *args, **kwargs):
+        print("Executed Function: {0}".format(self.func.__name__))
+        print(f"{args}")
+        return self.func(*args, **kwargs)
 
-class NextDate:
+    def __name__(self):
+        return(self.__name__())
 
-    def __init__(self, day,after_today=True):
-        self.current_day = datetime.now().isoweekday()
-        self.day=day
-        self.days_until = self.DaysUntil(day,after_today)
-        self.date = self.GetNextDate()
+class test:
 
-    def DaysUntil(self, day,after_today):
-        if self.current_day > day:
-            return (day+7)-self.current_day
-        elif self.current_day == day and after_today:
-            return (day + 7) - self.current_day
-        else:
-            return day-self.current_day
+    def __init__(self, account):
+        self.account=account
 
-    def GetNextDate(self):
-        return datetime.now()+timedelta(self.days_until)
+    @decorator_class
+    def Totalaccount(self):
+        print('returning account')
+        return self.account
 
-    def __str__(self):
-        return f"str(NextDate(Weekday.{Weekday(self.day).name}))"
+@decorator_class
+def display_property(name,age):
+    print("The Name is:{0}".format(name))
+    print("The Age is:{0}".format(age))
+
+display_property('mani', 36)
+time.sleep(1)
+'''
+account1=test(100)
+print(account1.account)
+print(account1.Totalaccount())
+'''
+class decorator2:
+
+    def __init__(self, func):
+        self.func = func
+
+    def __call__(self, *args, **kwargs):
+        print
+        'instance %s of class %s this is now decorated whee!' % (
+            self.obj, self.cls
+        )
+        return self.func.__call__(*args, **kwargs)
+
+    def __get__(self, instance, owner):
+        self.cls = owner
+        self.obj = instance
+
+        return self.__call__
+
+class test2:
+
+    def __init__(self, account):
+        self.account=account
+
+    @decorator2
+    def Totalaccount(self):
+        print('returning account')
+        return self.account
+
+account2=test2(200)
+print(account2.Totalaccount())
 
 
 
-
-
-
-print(Weekday.Thursday.value)
-print(Weekday.Monday.value)
-print(Weekday(1).name)
-
-next_friday = NextDate(Weekday.Friday)
-next_thursday = NextDate(Weekday.Thursday,False)
-print(next_thursday.days_until)
-print(next_thursday.date)
-
-
-print(str(NextDate(Weekday.Friday)) == str(NextDate(Weekday.Friday)))
