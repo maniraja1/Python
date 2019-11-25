@@ -1,91 +1,34 @@
-import time
-class class_property:
+class human:
+    def __init__(self,x):
+        self._x = x
+    def whoareyou(self):
+        return self._x
+    def method1(self):
+        return type(self)
 
-    def __init__(self, getter):
-        self._getter = getter
+    def method2(self):
+        return self.__class__.__name__
 
-    def __get__(self, obj, cls):
-        print(obj)
-        print(cls)
-        return self._getter(cls)
+    def method3(self):
+        return type(self)(self.whoareyou())
+
+mani=human('mani')
+print(mani.method1())
+print(mani.method2())
+print(mani.method3())
 
 
-class class_property2(class_property):
+import calendar
+print(calendar.weekday(2019, 7, 1))
+c = calendar.Calendar(firstweekday=calendar.SUNDAY)
 
-    def __get__(self, obj, cls):
-        print(obj)
-        print(cls)
-        # This is to make the property a class only property
-        if obj is not None:
-            raise AttributeError('This is a "class only" property')
-        return self._getter(cls)
 
-class class_property3:
+year = 2019; month = 10
 
-    def __init__(self, getter):
-        self._getter = getter
+monthcal = c.monthdatescalendar(year,month)
+print(monthcal)
+second_tuesday= [day for week in monthcal for day in week if
+                day.weekday() == calendar.TUESDAY and
+                day.month == month][2]
+print(second_tuesday)
 
-    def __call__(self, *args, **kwargs):
-        return self._getter(*args, **kwargs)
-
-class BankAccount:
-    accounts = []
-
-    def __init__(self, balance=0):
-        self.balance = balance
-        self.accounts.append(self)
-    @class_property
-    def balance(cls):
-        return sum(a.balance for a in cls.accounts)
-
-class BankAccount2:
-    accounts = []
-
-    def __init__(self, balance=0):
-        self.balance = balance
-        self.accounts.append(self)
-    @class_property2
-    def total_balance(cls):
-        return sum(a.balance for a in cls.accounts)
-
-class BankAccount3:
-    accounts = []
-
-    def __init__(self, balance=0):
-        self.balance = balance
-        self.accounts.append(self)
-
-    @class_property3
-    def total_balance(cls):
-        return sum(a.balance for a in cls.accounts)
-
-@class_property3
-def test(i):
-    return  i*i
-
-account1 = BankAccount(balance=95)
-account2 = BankAccount(balance=53)
-
-print(BankAccount.balance)
-print(account1.balance)
-print(account1.balance)
-
-print('##############################################')
-time.sleep(2)
-
-account3 = BankAccount2(balance=95)
-account4 = BankAccount2(balance=53)
-
-print(BankAccount2.total_balance)
-#print(account3.balance)
-#print(account4.total_balance)
-
-print('##############################################')
-time.sleep(2)
-
-account5 = BankAccount3(balance=95)
-print(BankAccount3.total_balance)
-
-print('##############################################')
-time.sleep(2)
-print(test(5))

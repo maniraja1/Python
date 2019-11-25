@@ -29,7 +29,7 @@ Notes
 
         See Example 4.0
         This is to show that using __call__ with a call does not return the value but just an address
-        
+
     There are more examples that can be found here
     https://www.geeksforgeeks.org/class-as-decorator-in-python/
 
