@@ -60,6 +60,8 @@ squares = Peekable(n**2 for n in [1, 2, 3, 4])
 print(next(squares))
 print(squares.peek())
 print(squares.peek())
+print(next(squares))
+print(squares)
 print(list(squares))
 print('###############################################')
 # Bonus1.0
