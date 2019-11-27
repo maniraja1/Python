@@ -2,6 +2,9 @@ import time
 '''
 Introduction
     Descriptor are object attribute with binding behavior. @property is a descriptor
+    There are two types data descriptor and Non data descriptor
+        Non data descriptor only has __get__
+        Data descriptor has __get__, __set__ & __del__
 
 Modules
 
