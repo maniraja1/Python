@@ -55,6 +55,7 @@ class Peekable:
                 raise ValueError ("Cannot have negative index")
 
 
+
 print('###############################################')
 squares = Peekable(n**2 for n in [1, 2, 3, 4])
 print(next(squares))
@@ -94,3 +95,67 @@ print(x)
 print(list(x))
 iterator = Peekable(iter([]))
 print(iterator.peek())
+
+
+
+'''
+Morsels solution
+Main difference in comparison to above solution is 
+we use peek and store the next value in self.cache and __next__ would return the value from self.cache
+we use dequeue 
+we use islice
+'''
+
+from collections import deque
+from itertools import islice
+
+
+SENTINEL = object()
+
+
+class peekable:
+
+    def __init__(self, iterable):
+        self.iterator = iter(iterable)
+        self.cache = deque()
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if not self.cache:
+            self.peek()
+        return self.cache.popleft()
+
+    def __bool__(self):
+        try:
+            self.peek()
+        except StopIteration:
+            return False
+        return True
+
+    def __getitem__(self, index):
+        if isinstance(index, slice):
+            assert index.start in (None, 0) and index.step in (None, 1)
+            stop = index.stop - len(self.cache)
+        else:
+            assert index >= 0
+            stop = index+1 - len(self.cache)
+        self.cache.extend(islice(self.iterator, max(stop, 0)))
+        if isinstance(index, slice):
+            return list(islice(self.cache, *index.indices(index.stop)))
+        else:
+            return self.cache[index]
+
+    def peek(self, default=SENTINEL):
+        if not self.cache:
+            try:
+                self.cache.append(next(self.iterator))
+            except StopIteration:
+                if default is not SENTINEL:
+                    return default
+                raise
+        return self.cache[0]
+
+    def prepend(self, value):
+        self.cache.appendleft(value)
