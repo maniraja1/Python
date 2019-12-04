@@ -1,3 +1,4 @@
+'''
 from array import array
 l=[1,2,3,4]
 print(l)
@@ -14,4 +15,8 @@ print(t)
 for x in t:
     print(chr(x))
     print(ord(chr(x)))
+    print(x)
+'''
+
+for x in range(10):
     print(x)
