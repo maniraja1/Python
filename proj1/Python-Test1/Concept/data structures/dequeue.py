@@ -58,6 +58,7 @@ print ('appendleft:', d)
 print('#########################################')
 print ('From the right:')
 d = collections.deque('abcdefg')
+print(d)
 while True:
     try:
         print (d.pop())
@@ -68,6 +69,7 @@ while True:
 print('#########################################')
 print ('From the left:')
 d = collections.deque('abcdefg')
+print(d)
 while True:
     try:
         print (d.popleft())
@@ -158,6 +160,14 @@ while d:
     d.popleft()
 """
 print(f" deque popleft loop 100000 times, executing 10 times: {timeit.timeit(s, number=10)}")
+
+s="""
+import collections
+d = collections.deque(range(100000))
+while d:
+    d.pop()
+"""
+print(f" deque popright loop 100000 times, executing 10 times: {timeit.timeit(s, number=10)}")
 
 s="""
 l = list(range(1000))

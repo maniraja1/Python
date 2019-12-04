@@ -18,5 +18,41 @@ for x in t:
     print(x)
 '''
 
-for x in range(10):
-    print(x)
+'''
+from itertools import islice
+from collections import deque
+l =[10,20,30,50]
+y = iter(l)
+
+print(l)
+print(y)
+for n in y:
+    print(n)
+
+x=zip(range(10),l)
+for _, n in x:
+    print(_,n)
+
+
+d=deque()
+y = iter(l)
+for n in y:
+    d.append(n)
+print(d)
+print(d[1])
+
+y = iter(l)
+z=islice(y, 2)
+for n in z:
+    print(n)
+
+y = iter(l)
+z=islice(y, 2)
+print(z)
+d=deque()
+d.extend(islice(y, 2))
+print(d)
+print(d[1])
+'''
+
+
