@@ -10,6 +10,10 @@ Methods
     load    -- load json from file
     loads   -- load json from object/variable
 
+Notes:
+    object_hook: This is an option parameter when used returns a custom object instead of dict.
+                 This is typically used with load, loads. See morsels_easyjson for more information
+
 '''
 
 
@@ -93,3 +97,14 @@ for todo in todos:
 print(todos_by_user)
 
 print(sorted(todos_by_user.items(), key=lambda y: y[1]))
+
+print('#'*50)
+print("json input with multiple rows")
+x = '[{"pink": false, "purple": true, "red": false}, {"pink": false, "purple": false, "red": false}]'
+x = json.loads(x)
+print(x)
+for y in x:
+    print(y["purple"])
+
+
+
