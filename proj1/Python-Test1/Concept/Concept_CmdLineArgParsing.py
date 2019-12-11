@@ -18,6 +18,8 @@ Options
         You can add an action to an argument
     mutually exclusive group
         you can add parameters such that both cannot be pased at the same time but at least one of them should be passed
+Notes:
+    https://codeburst.io/building-beautiful-command-line-interfaces-with-python-26c7e1bb54df
 '''
 '''
 Example how to use argparse.
