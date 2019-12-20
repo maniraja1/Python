@@ -34,8 +34,8 @@ class Color(Enum):
     BLUE = 3
 
 print(f'{Color.RED}')
-print(f'{Color.RED.name}')
-print(f'{Color.RED.value}')
+print(f'Name: {Color.RED.name}')
+print(f'Value: {Color.RED.value}')
 
 # Supports iteration
 for colors in Color:
@@ -43,6 +43,8 @@ for colors in Color:
 
 # example 1.0
 # This is not allowed
+print('#'*50)
+print('#'*20, 'Example 1.0', '#'*20)
 '''
 class Shape(Enum):
     SQUARE = 2
@@ -57,6 +59,8 @@ class Shape(Enum):
 
 # If uniqueness is desired you can use decorator @unique
 # Example 1.1
+print('#'*50)
+print('#'*20, 'Example 1.1', '#'*20)
 '''
 @unique
 class Shape(Enum):
@@ -67,6 +71,8 @@ class Shape(Enum):
 '''
 # Use Auto() for auto increment values
 # Example 1.2
+print('#'*50)
+print('#'*20, 'Example 1.2', '#'*20)
 class Color(Enum):
     RED = auto()
     GREEN = auto()
@@ -78,10 +84,16 @@ for colors2 in Color:
 
 # Enums are callable
 # Example 1.3
-Animal = Enum('Animal', 'ANT BEE CAT DOG')
+print('#'*50)
+print('#'*20, 'Example 1.3', '#'*20)
+Animal = Enum('x', 'ANT BEE CAT DOG')
+for colors2 in Animal:
+    print(f'Color {colors2.name} has a value of {colors2.value}')
 
 # IntEnums
 # Example 1.4
+print('#'*50)
+print('#'*20, 'Example 1.4', '#'*20)
 class Color(Enum):
     RED = auto()
     GREEN = auto()
