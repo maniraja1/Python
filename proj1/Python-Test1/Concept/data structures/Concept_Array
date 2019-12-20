@@ -1,0 +1,72 @@
+'''
+Concept:
+    Create an array that is strongly typed. List is also an array but is not strongly typed
+
+modules
+    from array import array
+
+Methods
+    append,insert(i,x), pop, index, reverse, index, remove
+
+
+
+
+'''
+from array import array
+l=[1,2,3,4]
+print(l)
+print(type(l))
+# m = array("i", l)
+m=array('i',l)
+print(f"Array: {m}")
+m.append(8)
+print(f"Append(8): {m}")
+print('Looping through elements')
+for i in m:
+    print(f"    Array Elements: {i}")
+
+
+print('#'*50)
+print("Demo popping")
+print(f"    Popping without idx pops the last element: {m.pop()}")
+print(f"    {m}")
+print(f"    Popping first element: {m.pop(0)}")
+print(f"    {m}")
+
+
+print('#'*50)
+print("Demo insert")
+m=array('i',l)
+print(f"Original array: {m}")
+m.insert(1,100)
+print(f"insert element at idx 1: {m}")
+
+print('#'*50)
+print("Demo reverse")
+print(f"Original array: {m}")
+m.reverse()
+print(f"Reversed Array: {m}")
+
+
+print('#'*50)
+print("Demo index")
+print(f"Original array: {m}")
+print(f"Index: {m.index(100)}")
+
+
+print('#'*50)
+print("Demo remove")
+print(f"Original array: {m}")
+m.remove(3)
+print(f"Remove value 3 from array: {m}")
+
+print('#'*50)
+print("Demo byte array")
+s = 'python'
+t = bytearray(s, 'utf-8')
+print(t)
+print("Looping through byte array")
+for x in t:
+    print(f"    Byte: {x}")
+    print(f"        Convert byte to char: {chr(x)}")
+    print(f"            Convert Byte to char to Byte: {ord(chr(x))}")

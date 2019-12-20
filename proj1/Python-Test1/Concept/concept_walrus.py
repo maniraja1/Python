@@ -25,4 +25,4 @@ sample_data = [
 print("With Python 3.8 Walrus Operator:")
 for entry in sample_data:
     if name := entry.get("name"):
-        print(f'Found name: "{name}"') 
+        print(f'Found name: "{name}"')
