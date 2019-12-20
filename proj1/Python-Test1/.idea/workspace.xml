@@ -355,13 +355,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.dbtest" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.ConnectionError" />
-      <item itemvalue="Python.test3" />
-      <item itemvalue="Python.morsels_smallestnitems" />
-      <item itemvalue="Python.test4" />
       <item itemvalue="Python.Concepts_regex" />
+      <item itemvalue="Python.ConnectionError" />
+      <item itemvalue="Python.dbtest" />
+      <item itemvalue="Python.morsels_smallestnitems" />
+      <item itemvalue="Python.test3" />
+      <item itemvalue="Python.test4" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
