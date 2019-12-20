@@ -3,3 +3,5 @@
 
 # ignore folder named venv
 venv/
+.DS_Store
+
