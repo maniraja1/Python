@@ -1,3 +1,26 @@
+'''
+Data structure that links nodes together. The actual data is stored inside the node.
+Each node represents data (like an array element) and each node also holds a reference to its previous and next item.
+
+Single linked list only has reference to the next item
+double linked list has reference to next and previous item
+
+Complexity
+    insert = O(1)
+    delete = O(1)
+    search = O(n)
+    GetFirstElement=O(1)
+    GetNextElement = O(1)
+    Get PreviousElement=O(1)
+
+    As you can see its efficient in inserting and deleting items.
+    It is very inefficient when searching items in a linked list
+    However it is great at looking for next and previous element
+
+'''
+
+
+
 class Node:
 
     def __init__(self, val=None):
