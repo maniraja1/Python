@@ -1,0 +1,17 @@
+'''
+    Each node can have 3 child nodes. left child (less), middle child(equal), right child (greater)
+    consumes less memory
+    can be used for sorting operation more efficient than BST
+    more efficient than hash maps when it comes to hash collisions or search misses
+
+    With TST you inspect one character at a time and decide if a given key is is available or not.
+    With Hashfunction you would use all the caracters in the keys and look for the hash but with TST you may arrive at
+    misses after just looking the first few characters in a key
+
+    TST is more space efficient than tries but tries are more performant than TST
+    TST is more efficient than hashing and more flexible (because it supports sorting) than BST
+
+
+
+
+'''

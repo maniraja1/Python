@@ -8,8 +8,11 @@ modules
 Methods
     append,insert(i,x), pop, index, reverse, index, remove
 
-
-
+Complexity
+    Add/Remove item to an array = O(1)
+    Add/Remove item at an index = O(N)
+    Retrieve item at an index = O(1)
+    Search item in an array = O(N)
 
 '''
 from array import array

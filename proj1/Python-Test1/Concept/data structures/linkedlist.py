@@ -15,7 +15,8 @@ Complexity
 
     As you can see its efficient in inserting and deleting items.
     It is very inefficient when searching items in a linked list
-    However it is great at looking for next and previous element
+    However it is great at looking for next and previous element.
+    This is a great data structure for undo & redo or back and forward button in a browser
 
 '''
 

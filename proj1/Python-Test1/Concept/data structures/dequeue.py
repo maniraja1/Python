@@ -22,7 +22,10 @@ Methods
         tail filter in Unix. They are also useful for tracking transactions and other pools of data where only the most
         recent activity is of interest.
 
-
+Additional notes
+    Priority Queues
+        Similar to Queues but the elements with high priority are served first
+        Priority queues are implemented using heaps
 '''
 
 
