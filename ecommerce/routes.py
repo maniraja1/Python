@@ -1,7 +1,10 @@
 from flask_restplus import Namespace, Resource, reqparse,fields
-from models import product as product_model
+import models as product_model
 from flask import request
+
+
 product_ns = Namespace('product', description='product related stuff')
+
 
 ''' Be careful how you define routes, arguents defined in the path are treated as positional arguments. 
 It doesn't know the difference between id and nameif you define routes like /product/<id> /product/<name>. 
@@ -57,11 +60,18 @@ class productById(Resource):
         return product_model.Product.getProduct(id=id)
 
 # This below endpoint accepts parameters in the url path
-@product_ns.route('/GetProductByName/<string:name>')  # strongly type parameters
+@product_ns.route('/GetProductByName/<string:name>', methods=['GET', 'POST'])  # strongly type parameters
 @product_ns.doc("Get Product by name")
 class productByName(Resource):
     def get(self, name=None):
         return product_model.Product.getProduct(name=name)
+
+    def post(self, name):
+        newproduct = product_model.Product()
+        newproduct.product_name=name
+        product_model.db.session.add(newproduct)
+        product_model.db.session.commit()
+        return f"Inserted new Product {newproduct}"
 
 '''Method 2'''
 class productdynamic(Resource):
@@ -76,8 +86,8 @@ class productdynamic(Resource):
 
 
 product_ns.add_resource(productdynamic, '/ZDynamicProduct', methods=['GET'])
-product_ns.add_resource(productdynamic, '/ZDynamicProductByID',  methods=['GET'])
-product_ns.add_resource(productdynamic, '/ZDynamicProductByName/<name>', methods=['GET'])
+product_ns.add_resource(productdynamic, '/ZDynamicProductByID/<int:id>',  methods=['GET'])
+product_ns.add_resource(productdynamic, '/ZDynamicProductByName/<string:name>', methods=['GET'])
 
 
 

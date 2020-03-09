@@ -7,6 +7,9 @@ parser.add_argument("--ext", help="Folder Names to search. You can enter multipl
 args = parser.parse_args()
 foldernames = args.foldernames
 ext = args.ext
+print(*args.foldernames)
+print(foldernames)
+print(*foldernames)
 
 def lines2 (foldernames, ext=None):
     extension_stats = dict()
