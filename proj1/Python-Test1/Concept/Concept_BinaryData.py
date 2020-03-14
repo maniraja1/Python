@@ -24,7 +24,7 @@ print(type(byte))
 print(byte[5]) # byte can be treated like an array
 for s in byte: print(s)  # iterate over every byte and print value
 
-# byte array is immutable
+# byte array is mutable
 print(bytes([3]))
 byte = bytearray('Hello', 'utf-8')
 print(type(byte))
@@ -88,6 +88,7 @@ print("{0:x}".format(i)) # hexadecimal: ff
 print("{0:o}".format(i)) # octal: 377
 
 # Convert integer to bytes
+print(byte1)
 b = byte1.to_bytes(4, sys.byteorder)
 print(f"Byte1:{byte1.to_bytes(4, sys.byteorder)}")
 print(struct.pack('i', 240))  # convert integer to byte

@@ -65,7 +65,9 @@ class MyDecorator:
     def __call__(self, *args, **kwargs):
         # We can add some code
         # before function call
+        print("Code  that runs before")
         return self.function(*args, **kwargs)
+        print("Code that runs after")
         # We can also add some code
         # after function call.
 
@@ -80,6 +82,7 @@ function("geeks_for_geeks", "hello")
 
 
 # CLASS BASED DECORATOR using __get__
+# This will not work if the class has parameters that are passed
 # Example 3.0
 print('EXAMPLE 3.0')
 
@@ -89,8 +92,6 @@ class class_property:
         self._getter = getter
 
     def __get__(self, obj, cls):
-        print(obj)
-        print(cls)
         return self._getter(cls)
 
 class BankAccount:
@@ -99,18 +100,22 @@ class BankAccount:
     def __init__(self, balance=0):
         self.balance = balance
         self.accounts.append(self)
+
+
     @class_property
-    def balance(cls):
+    def Totalbalance(cls):
         return sum(a.balance for a in cls.accounts)
 
 account1 = BankAccount(balance=95)
 account2 = BankAccount(balance=53)
-
-print(BankAccount.balance)
+print("############")
+print(BankAccount.Totalbalance)
+print("############")
 print(account1.balance)
-print(account1.balance)
+print(account2.balance)
 
 # CLASS BASED DECORATOR using __call__
+# Note that in this case it returns address and not values
 # Example 4.0
 print('EXAMPLE 4.0')
 class class_property3:
@@ -118,7 +123,9 @@ class class_property3:
     def __init__(self, getter):
         self._getter = getter
 
-    def __call__(self, obj, cls):
+    def __call__(self, cls):
+        print("Inside call")
+        #print(obj, cls)
         return self._getter(cls)
 
 class BankAccount3:
@@ -133,4 +140,120 @@ class BankAccount3:
         return sum(a.balance for a in cls.accounts)
 
 account5 = BankAccount3(balance=95)
+print(account5.balance)
+print("############")
 print(BankAccount3.total_balance)
+print("############")
+
+print("Example 5.0")
+import time
+class InstanceTracker:
+
+    def __init__(self, getter):
+        self._getter = getter
+
+    def __call__(self,  x):
+        print(self.__dict__)
+        self._args = x
+        print(self._getter)
+        print(f"Args: {self._args}")
+        return self._getter(self._args)
+
+    def __get__(self, instance, owner):
+        print(instance)
+        print(owner)
+        self._cls = owner
+        print(self._getter)
+        return self._getter(instance)
+
+
+
+@InstanceTracker
+def testfunc(x):
+    return x
+
+print(testfunc(5))
+
+
+
+print("Example 6.0")
+
+class BankAccount2:
+
+    def __init__(self, bal):
+        self.balance=bal
+
+    @InstanceTracker
+    def total(self):
+        return self.balance
+'''
+    # This will throw error
+    @InstanceTracker
+    def total2(self,x):
+        print(x)
+        return self.balance
+'''
+
+print("This only works with instance methods does not work when parameters are passed other than self")
+a1 = BankAccount2(10)
+print(a1.total)
+
+# Example where methods can pass parameters and decorator can process the parameter.
+print("Example 7.0")
+
+def our_decorator(func):
+    instances = []
+    print(func.__name__)
+    #print([locals()[x] for x in inspect.getfullargspec(func).args])
+
+    def function_wrapper(self, *args, **kwargs):
+        print("Before calling " + func.__name__)
+        instances.append(self)
+        return func(self, *args, **kwargs)
+    return function_wrapper
+
+
+class BankAccount:
+    @our_decorator
+    def __init__(self, bal):
+        self.balance=bal
+
+    @our_decorator
+    def getbalance(self, x):
+        print(x)
+        return self.balance
+
+    @our_decorator
+    def total(self):
+        return self.balance
+
+print("This  works with instance methods and methods with parameters.")
+a = BankAccount(5)
+time.sleep(1)
+b = BankAccount(6)
+time.sleep(1)
+print(a.getbalance(1))
+print(b.getbalance(2))
+print(a.total())
+print(b.total())
+
+
+print("Example 8.0")
+def track_instances(cls):
+    original_init = cls.__init__
+    cls.instances = []
+    def __init__(self, *args, **kwargs):
+        original_init(self, *args, **kwargs)
+        cls.instances.append(self)
+    cls.__init__ = __init__
+    return cls
+
+@track_instances
+class bankaccount:
+    def __init__(self, bal):
+        self.bal=bal
+
+a=bankaccount(10)
+b=bankaccount(20)
+
+print(bankaccount.instances)
