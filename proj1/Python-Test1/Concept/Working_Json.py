@@ -29,6 +29,7 @@ data = {
 print("Demo dumps")
 j = json.dumps(data)
 print(j)
+print(type(j))
 print(data)
 
 print('#'*50)
@@ -67,6 +68,7 @@ print(json_string)
 print(data)
 print(type(json_string))
 print(type(data))
+print(data["researcher"]["name"])
 
 print('#'*50)
 print("Demo load")
