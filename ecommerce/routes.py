@@ -1,21 +1,20 @@
 from flask_restplus import Namespace, Resource, reqparse,fields
-import models as product_model
-from flask import request
+import models.product_model as product_model
+from flask import request, jsonify
 
 
 product_ns = Namespace('product', description='product related stuff')
 
 
-''' Be careful how you define routes, arguents defined in the path are treated as positional arguments. 
-It doesn't know the difference between id and nameif you define routes like /product/<id> /product/<name>. 
-It treats the first argument as ID and doesn't know the difference between id and name. 
+''' Be careful how you define routes, arguments defined in the path are treated as positional arguments. 
+It doesn't know the difference between id and name if you define routes like /product/<id> /product/<name>. 
 
-However if you change to 
-/product/productbyid/<id> /product/productbyname/<name> then it knows the difference. see below
+You may have to build separate paths(like below) or build an api that can process parameters in query string or 
+the request body
+/product/productbyid/<id> /product/productbyname/<name> 
 
 Another way to define arguments is by using parameters in query string instead of in paths.
 
-Below you will find examples for defining  arguments in path and in query string
 '''
 
 
@@ -24,7 +23,7 @@ Below you will find examples for defining  arguments in path and in query string
 @product_ns.doc("API related to product")
 class product(Resource):
     def get(self):
-        return product_model.Product.getProduct()
+        return product_model.Product.getAllProducts()
 
 # This below endpoint can parse query parameter. There are no parameters in the path  will be parsed as a
 # query string
@@ -37,12 +36,18 @@ class product(Resource):
     def get(self):
         id = request.args.get("id")
         name = request.args.get("name")
-        return product_model.Product.getProduct(id=id, name=name)
+        if id is not None:
+            return product_model.Product(product_id=id).getProductByID()
+        elif name is not None:
+            return product_model.Product(product_name=name).getProductByName()
+        else:
+            return "Invalid inputs passed"
 
 # This below endpoint accepts parameters in the url path and has both post and get
 # This endpoint also show how to deal with arguments passed in the body
+# you need to define a model that will be used in the body documentation
 
-# you nee dto define a model that will be used in the body documentation
+# Define parameters in the body here
 resource_fields = product_ns.model('Resource', {
     'name': fields.String(description="Product Name.", required=True),
 })
@@ -52,73 +57,36 @@ resource_fields = product_ns.model('Resource', {
 class productById(Resource):
 
     def get(self, id=None):
-        return product_model.Product.getProduct(id=id)
+        return product_model.Product(id).getProductByID()
 
     @product_ns.expect(resource_fields, validate=True) # Body documentation
-    def post(self,id):
-        print (f"{request.get_json()}") # Get body Json
-        return product_model.Product.getProduct(id=id)
+    def post(self, id):
+        # Process parameters
+        product_name = request.get_json()['name']
+        product_model.Product(id, product_name).insertproduct()
 
-# This below endpoint accepts parameters in the url path
+
 @product_ns.route('/GetProductByName/<string:name>', methods=['GET', 'POST'])  # strongly type parameters
 @product_ns.doc("Get Product by name")
 class productByName(Resource):
     def get(self, name=None):
-        return product_model.Product.getProduct(name=name)
+        p = product_model.Product(product_name=name)
+        return p.getProductByName()
 
     def post(self, name):
-        newproduct = product_model.Product()
-        newproduct.product_name=name
-        product_model.db.session.add(newproduct)
-        product_model.db.session.commit()
-        return f"Inserted new Product {newproduct}"
+        p = product_model.Product(product_name=name)
+        p.insertproduct()
 
-'''Method 2'''
-class productdynamic(Resource):
-    def get(self, id=None, name=None):
-        print (f"ID: {id}, Name: {name}")
-        if id is not None:
-            return f"This is the product home page ID: {id}"
-        if name is not None:
-            return f"This is the product home page name: {name}"
-        else:
-            return "This is the product home page"
+# Running adhoc SQL
+@product_ns.route('/GettopNProduct')
+@product_ns.doc("Get Top N Product")
+@product_ns.doc(params={'count': 'count'})
+class topNProduct(Resource):
+    def get(self):
+        count = request.args.get("count")
+        print(f"Count: {count}")
+        return product_model.Product.getTopNProducts(count)
 
-
-product_ns.add_resource(productdynamic, '/ZDynamicProduct', methods=['GET'])
-product_ns.add_resource(productdynamic, '/ZDynamicProductByID/<int:id>',  methods=['GET'])
-product_ns.add_resource(productdynamic, '/ZDynamicProductByName/<string:name>', methods=['GET'])
-
-
-
-
-'''Method3'''
-'''
-# Define parser and request args
-parser = reqparse.RequestParser()
-parser.add_argument('id', type=str, required=False, help='Get product by ID')
-parser.add_argument('name', type=str, required=False, help='Get product by name')
-
-
-class product2(Resource):
-
-    def get(self, id=None, name=None):
-        args = parser.parse_args()
-        print(args)
-        id = args['id']
-        name = args['name']
-        print (f"ID: {id}, Name: {name}")
-        if id is not None:
-            return product_model.Product.getProduct(id=id)
-        elif name is not None:
-            return product_model.Product.getProduct(name=name)
-        else:
-            return product_model.Product.getProduct()
-
-product_ns.add_resource(product2, '/product2')
-product_ns.add_resource(product2, '/product2/<id>')
-product_ns.add_resource(product2, '/product2/<name>')
-'''
 
 
 
