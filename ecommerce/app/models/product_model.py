@@ -1,35 +1,31 @@
-'''
-from flask_sqlalchemy import SQLAlchemy
-
-db = SQLAlchemy()
-'''
-from models.db_model import db_orm as db, db_mssql
+from app.database import db_orm as db
+from app.database import db_mssql
 from flask import jsonify
-from sqlalchemy import engine
+from time import sleep
 
 class Product(db.Model):
 
     product_id = db.Column(db.Integer, primary_key=True)
     product_name = db.Column(db.String(20), unique=True, nullable=False)
 
-    def __init__(self,product_id = None, product_name=None):
+    def __init__(self, product_id=None, product_name=None):
         self.product_name=product_name
         self.product_id=product_id
 
     def __repr__(self):
-        return f"product({self.product_id}, '{self.product_name}')"
+        return f"product(ProductID: {self.product_id}, ProductName: '{self.product_name}')"
+
+    def __json__(self):
+        return f"product(ProductID: {self.product_id}, ProductName: '{self.product_name}')"
 
     def serialize(self):
         return {"id": self.product_id,
                 "name": self.product_name}
 
     def insertproduct(self):
+        sleep(5)
         if self.product_name is None:
             raise ValueError("Product Name cannot be None")
-        '''
-        if self.product_id is None:
-            raise ValueError("Product ID cannot be None")
-        '''
 
         if self.getProductByID() is not None:
             raise ValueError (f"Product with ID:{self.product_id} already exists")
@@ -46,12 +42,12 @@ class Product(db.Model):
     def getAllProducts():
         ret_json = []
         for x in Product.query.all():
-            ret_json.append (x.serialize())
+            ret_json.append(x.serialize())
         return ret_json
 
 
     def getProductByID(self):
-        x = Product.query.get(self.product_id)
+        x = self.query.get(self.product_id)
         if x:
             return x.serialize()
         else:
@@ -67,10 +63,12 @@ class Product(db.Model):
             return None
 
     ## Running adhoc SQL
+    @staticmethod
     def getTopNProducts(n):
         with db_mssql.connect() as connection:
             cursor = connection.execute(f'SELECT top {n} * FROM product')
             return jsonify({'result': [dict(row) for row in cursor]})
+
 
 
 

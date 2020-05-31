@@ -1,6 +1,8 @@
 from flask_restplus import Namespace, Resource, reqparse,fields
-import models.product_model as product_model
+import app.models.product_model as product_model
 from flask import request, jsonify
+import createapp as app
+import tasks
 
 
 product_ns = Namespace('product', description='product related stuff')
@@ -16,14 +18,15 @@ the request body
 Another way to define arguments is by using parameters in query string instead of in paths.
 
 '''
-
-
 '''Method 1'''
 @product_ns.route('')
 @product_ns.doc("API related to product")
 class product(Resource):
     def get(self):
+        app.flask_app.logger.info("GetProduct Success")
         return product_model.Product.getAllProducts()
+
+
 
 # This below endpoint can parse query parameter. There are no parameters in the path  will be parsed as a
 # query string
@@ -51,6 +54,7 @@ class product(Resource):
 resource_fields = product_ns.model('Resource', {
     'name': fields.String(description="Product Name.", required=True),
 })
+
 @product_ns.route('/GetProductByID/<int:id>', methods=['GET', 'POST'])  # strongly type parameters
 @product_ns.doc("Get Product by ID")
 @product_ns.doc(params={'id': 'An ID'})
@@ -73,9 +77,18 @@ class productByName(Resource):
         p = product_model.Product(product_name=name)
         return p.getProductByName()
 
+
     def post(self, name):
-        p = product_model.Product(product_name=name)
-        p.insertproduct()
+        #p = product_model.Product(product_name=name)
+        #p.insertproduct.delay()
+        #app.sendemail2.apply_async(args=[name])
+        #id=None
+        #product_model.InsertAsync.apply_async(args=[id, name])
+        productname=name
+        ##tasks.InsertAsync.apply_async(args=[productname])
+        tasks.InsertAsync2.apply_async(args=[productname])
+        return "Processing Request Asynchronously"
+
 
 # Running adhoc SQL
 @product_ns.route('/GettopNProduct')

@@ -1,0 +1,4 @@
+{
+  "SQLALCHEMY_DATABASE_URI": "mssql+pymssql://apptest:Sqlserver100$@localhost:1401/ecommerce",
+  "SQLALCHEMY_TRACK_MODIFICATIONS": "False"
+}
