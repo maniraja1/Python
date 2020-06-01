@@ -5,7 +5,7 @@ import unittest
  one way of running this is navigate to the project folder where your test.py is located and run the below
  python -m unittest test_calc.py
 
- Another way of running thsi is including if__name=='__main__':unittest.main()
+ Another way of running this is including if__name=='__main__':unittest.main()
 
 '''
 class testcalc(unittest.TestCase):
