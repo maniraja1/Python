@@ -48,6 +48,15 @@ Reference
     https://www.datacamp.com/community/tutorials/python-regular-expression-tutorial#REinPython
 '''
 import re
+ssn = "123-45-6789 xxx 111-11-1111"
+print(ssn)
+c = re.compile(r'\d{3}-\d{2}-\d{4}')
+print(c.findall(ssn))
+
+if(re.match(r'[0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]', ssn)):
+    print("True")
+else:
+    print("false")
 text="500000000 A quick fox 10 jumped over 2 the lazy dogs xyz@abc.com blah blah blah xxx@yyy.com"
 # Alpha numeric search
 print("Alphanumeric search demo")

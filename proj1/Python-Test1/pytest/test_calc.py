@@ -1,5 +1,5 @@
 import calc
-
+import pytest
 '''
 
 '''
@@ -32,4 +32,15 @@ def test_divide():
     assert calc.divide(-5, 2) == -2.5
     assert calc.divide(0, 2) == 0
 
+
+@pytest.mark.parametrize("maybe_palindrome, expected_result", [
+    ("", True),
+    ("a", True),
+    ("Bob", True),
+    ("Never odd or even", True),
+    ("abc", False),
+    ("abab", False),
+])
+def test_is_palindrome(maybe_palindrome,expected_result):
+    assert calc.is_palindrome(maybe_palindrome) == expected_result
 

@@ -31,7 +31,7 @@ j = json.dumps(data)
 print(j)
 print(type(j))
 print(data)
-
+print(type(data))
 print('#'*50)
 print("Demo dump")
 with open("data_file.json", "w") as write_file:
@@ -74,7 +74,7 @@ print('#'*50)
 print("Demo load")
 with open("data_file.json", "r") as read_file:
     data = json.load(read_file)
-
+print(data)
 print('#'*50)
 print("Demo jsonplaceholder")
 res = requests.get("https://jsonplaceholder.typicode.com/todos")

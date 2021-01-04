@@ -1,0 +1,4 @@
+SQLALCHEMY_DATABASE_URI= "mssql+pymssql://apptest:Sqlserver100$@localhost:1401/DWAudits"
+SQLALCHEMY_TRACK_MODIFICATIONS = "False"
+SQLALCHEMY_TRACK_MODIFICATIONS = "False"
+LOGDIR= "logging"

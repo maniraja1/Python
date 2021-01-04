@@ -42,3 +42,21 @@ tr = TestThreading()
 #time.sleep(2)
 #print(datetime.datetime.now().__str__() + ' : Second output')
 '''
+
+x="12xx"
+print("".join(i) for i in x if str(x).isnumeric())
+
+x="magister-db2.postgres.database.azure.com"
+y = 'pkiuser@'
+db_settings={"host":"magister-db2.postgres.database.azure.com","user":"pkiuser"}
+
+if f'@{db_settings["host"].split(".")[0]}' not in db_settings["user"]:
+    print (f"{y}@{x.split('.')[0]}")
+else:
+    print(y)
+print(y.split('@')[0])
+
+d={'auth_type': 'azure_uami'}
+
+if d['auth_type'] in ('azure_uami', 'azure_password'):
+    print('azure')

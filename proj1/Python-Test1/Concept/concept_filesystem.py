@@ -1,6 +1,6 @@
 '''
 There are 2 modules that helps you OS module and Pathlib module
-Inside the od module you have Path, walk tha help you with working with paths and searching files/folders
+Inside the os module you have Path, walk tha help you with working with paths and searching files/folders
 Inside the pathlib folder you have Path, glob, rglob that help you with paths and searches
 
 The preferred approach is pathlib as it makes code platform independent. It automatically converts / to \

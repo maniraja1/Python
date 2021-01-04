@@ -61,7 +61,7 @@ byte1 = int('11110000', 2)  # 240
 byte2 = int('00001111', 2)  # 15
 byte3 = int('01010101', 2)  # 85
 
-
+print("complement")
 print(byte1)
 print(~byte1)  # Complement bits
 
